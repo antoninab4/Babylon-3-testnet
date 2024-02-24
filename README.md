@@ -260,9 +260,10 @@ babylond tx checkpointing create-validator /root/.babylond/config/validator.json
 ### ждем 1 час и проверяем валидатора в браузере
 ```
 https://testnet.babylon.explorers.guru/validators
+```
 
 ### делегировать себе
-
-```
 babylond tx epoching delegate адрес_валидатора 1000000ubbn --from=ваш_кошелек --chain-id bbn-test-3 --fees=12000ubbn -y
 ```
+
+
