@@ -153,7 +153,7 @@ mv genesis.json ~/.babylond/config/genesis.json
 ```
 Start Service And Check The Logs
 ```
-sudo systemctl start babylond.service && sudo journalctl -u babylond.service -f --no-hostname -o cat
+sudo systemctl restart babylond.service && sudo journalctl -u babylond.service -f --no-hostname -o cat
 ```
 
 ### если не коннектится можно взять пиры сдесь
